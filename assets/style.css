@@ -7,13 +7,41 @@ main{
     padding: 20px;
     margin: 20vh auto;
 }
-button{
+.blue{
     padding: 20px 40px;
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom:50px ;
-    width: 100px;
-    fond-size: 30px;
+    margin-bottom:10px ;
+    width: 300px;
+    font-size: 30px;
+    border:  none;
+    background-color: yellow;
+}
+.pink{
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom:10px ;
+    width: 50spx;
+    font-size: 30px;
     border:  none;
     background-color: pink;
-}
+    backdrop-filter: transparent;
+ }
+
+ .green {
+    background-color: green;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+ }
+
+
+ .btncolors {
+    display: flex;
+    flex-direction: column;
+
+ }
